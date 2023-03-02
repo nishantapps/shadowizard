@@ -1,8 +1,7 @@
 # Shadowizard CDN
 
 Get perfect shadows everytime for non-designer.
-![https://www.npmjs.com/package/@developerso/shadowizard/](https://img.shields.io/npm/v/@developerso/shadowizard?color=green&label=Npm%20version)
-![](https://img.shields.io/npm/dw/@developerso/shadowizard)
+[![](https://data.jsdelivr.com/v1/package/gh/developerso/shadowizard/badge)](https://www.jsdelivr.com/package/gh/developerso/shadowizard) 
 ![](https://img.shields.io/discord/1076750677864366220)
 
 # Installation
