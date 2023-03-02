@@ -1,4 +1,4 @@
-# Shadowizard
+# Shadowizard CDN
 
 Get perfect shadows everytime for non-designer.
 ![https://www.npmjs.com/package/@developerso/shadowizard/](https://img.shields.io/npm/v/@developerso/shadowizard?color=green&label=Npm%20version)
@@ -7,7 +7,11 @@ Get perfect shadows everytime for non-designer.
 
 # Installation
 
-`npm i shadowizard --save`
+> Using CDN
+ 
+``` 
+https://cdn.jsdelivr.net/gh/developerso/shadowizard@2.0.0/index.js
+```
 
 Then...
 
