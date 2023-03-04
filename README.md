@@ -64,3 +64,12 @@ shadowizard({
 # Conclusion 
 
 Shadowizard is a simple and customizable package that makes it easy to add beautiful box-shadow effects to your HTML elements. With its easy-to-use API and customizable options, you can quickly and easily create stunning visual effects that enhance the design of your website or application.
+
+
+# Tags
+
+![](https://img.shields.io/github/downloads/developerso/shadowizard/total?color=green)
+![](https://img.shields.io/npm/v/@developerso/shadowizard)
+![](https://img.shields.io/jsdelivr/gh/hm/developerso/shadowizard)
+![](https://img.shields.io/github/license/developerso/shadowizard)
+![](https://img.shields.io/npm/l/@developerso/shadowizard?label=NPM%20license)
