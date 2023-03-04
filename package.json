@@ -2,24 +2,4 @@
   "name": "@developerso/shadowizard",
   "version": "1.0.0",
   "description": "This module gives smooth shadow everytime for non-developers",
-  "main": "shadowizard/packages/nodejs/index.js",
-  "scripts": {
-    "test": "node test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/developerso/shadowizard.git"
-  },
-  "keywords": [
-    "javascript",
-    "github",
-    "npm",
-    "shadowizard"
-  ],
-  "author": "Developerso",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/developerso/shadowizard/issues"
-  },
-  "homepage": "https://github.com/developerso/shadowizard#readme"
 }
