@@ -1,4 +1,5 @@
 # Shadowizard CDN 
+![](https://img.shields.io/badge/CDN%20Latest%20version-2.5.3-green)
 The Shadowizard Package CDN is a JavaScript package that provides users with the ability to easily add shadow effects to HTML elements. This package can be installed using NPM or Yarn, or it can be downloaded directly from the GitHub repository.
 
 > The CDN distribution of Shadowizard Package is available in the "js" directory of the "dist" folder. This directory contains the following files:
