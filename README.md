@@ -36,6 +36,8 @@ shadowizard({
 > Using CDN
 
 Add Following script in body tag.
+
+REMEMBER to add the cdn. [See the documentation](https://github.com/developerso/shadowizard/wiki#installation)
 ```
 <script>
 shadowizard({
