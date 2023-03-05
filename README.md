@@ -73,3 +73,4 @@ Shadowizard is a simple and customizable package that makes it easy to add beaut
 ![](https://img.shields.io/jsdelivr/gh/hm/developerso/shadowizard)
 ![](https://img.shields.io/github/license/developerso/shadowizard)
 ![](https://img.shields.io/npm/l/@developerso/shadowizard?label=NPM%20license)
+![](https://img.shields.io/badge/Github%20Latest%20version-2.5.3-green)
