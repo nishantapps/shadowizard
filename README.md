@@ -2,12 +2,25 @@
 Shadowizard is a simple, customizable, and lightweight package that allows you to add beautiful and customizable box-shadow effects to your HTML elements. It's easy to use and can be installed via the Node Package Manager (NPM).
 
 # Installation
-To install Shadowizard, open your terminal and run the following command:
+We can using:
+• NPM
+• CDN
+> To install Shadowizard using NPM, open your terminal and run the following command:
  ```
 npm install @developerso/shadowizard
 ```
-# Usage
+> To use using cdn:
 
+For development version:
+```
+<script src="https://cdn.jsdelivr.net/gh/developerso/shadowizard@2.5.4/shadowizard/packages/cdn/dist/js/shadowizard.js" integrity="sha256-Hjwjah7dAfJtwF6EkpNZdLSc4rtR/ZKv9xf6RbSD1do=" crossorigin="anonymous"></script>
+```
+For production version:
+```
+<script src="https://cdn.jsdelivr.net/gh/developerso/shadowizard@2.5.4/shadowizard/packages/cdn/dist/js/shadowizard.min.js" integrity="sha256-Hjwjah7dAfJtwF6EkpNZdLSc4rtR/ZKv9xf6RbSD1do=" crossorigin="anonymous"></script>
+```
+# Usage
+> Using NPM
 1. Import the Shadowizard package into your JavaScript file.
 ```
 import shadowizard from '@developerso/shadowizard';
@@ -18,6 +31,18 @@ shadowizard({
     shadow_type: 'soft',
     padding: false
 });
+```
+
+> Using CDN
+
+Add Following script in body tag.
+```
+<script>
+shadowizard({
+    shadow_type: 'soft',
+    padding: false
+});
+</script>
 ```
 # Options
 
