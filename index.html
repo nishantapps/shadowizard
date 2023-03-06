@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=6d31aa1a4721c2ada5897d8f92744769ca6c6210">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup theme-color -->
+<!-- start theme color meta headers -->
+<meta name="theme-color" content="#151515">
+<meta name="msapplication-navbutton-color" content="#151515">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- end theme color meta headers -->
+
+
+<!-- Setup Google Analytics -->
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'G-MPQJT9D7F8', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Shadowizard | Shadowizard Doc</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="Shadowizard" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Gives your website a perfect shadow" />
+<meta property="og:description" content="Gives your website a perfect shadow" />
+<link rel="canonical" href="https://shadowizard.apsa-developers.software/" />
+<meta property="og:url" content="http://shadowizard.apsa-developers.software/" />
+<meta property="og:site_name" content="Shadowizard Doc" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Shadowizard" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"Gives your website a perfect shadow","headline":"Shadowizard","name":"Shadowizard Doc","url":"http://shadowizard.apsa-developers.software/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <a id="a-title" href="/">
+          <h1>Shadowizard Doc</h1>
+        </a>
+        <h2>Gives your website a perfect shadow</h2>
+
+        <section id="downloads">
+          
+            <a href="https://github.com/developerso/shadowizard/zipball/main" class="btn">Download as .zip</a>
+            <a href="https://github.com/developerso/shadowizard/tarball/main" class="btn">Download as .tar.gz</a>
+          
+          <a href="https://github.com/developerso/shadowizard" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1 id="shadowizard">Shadowizard</h1>
+<p>Shadowizard is a simple, customizable, and lightweight package that allows you to add beautiful and customizable box-shadow effects to your HTML elements. It’s easy to use and can be installed via the Node Package Manager (NPM).</p>
+
+<h1 id="installation">Installation</h1>
+<p>We can using:
+• NPM
+• CDN</p>
+<blockquote>
+  <p>To install Shadowizard using NPM, open your terminal and run the following command:</p>
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm install @developerso/shadowizard
+</code></pre></div>  </div>
+  <p>To use using cdn:</p>
+</blockquote>
+
+<p>For development version:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;script src="https://cdn.jsdelivr.net/gh/developerso/<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="17647f767378607e6d766573572539223923">[email&#160;protected]</a>/shadowizard/packages/cdn/dist/js/shadowizard.js" integrity="sha256-Hjwjah7dAfJtwF6EkpNZdLSc4rtR/ZKv9xf6RbSD1do=" crossorigin="anonymous"&gt;&lt;/script&gt;
+</code></pre></div></div>
+<p>For production version:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;script src="https://cdn.jsdelivr.net/gh/developerso/<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="07746f666368706e7d667563473529322933">[email&#160;protected]</a>/shadowizard/packages/cdn/dist/js/shadowizard.min.js" integrity="sha256-Hjwjah7dAfJtwF6EkpNZdLSc4rtR/ZKv9xf6RbSD1do=" crossorigin="anonymous"&gt;&lt;/script&gt;
+</code></pre></div></div>
+<h1 id="usage">Usage</h1>
+<blockquote>
+  <p>Using NPM</p>
+  <ol>
+    <li>Import the Shadowizard package into your JavaScript file.
+      <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import shadowizard from '@developerso/shadowizard';
+</code></pre></div>      </div>
+    </li>
+    <li>Call the shadowizard function and pass in the target HTML element and any customization options you want to use.
+      <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>shadowizard({
+ shadow_type: 'soft',
+ padding: false
+});
+</code></pre></div>      </div>
+    </li>
+  </ol>
+</blockquote>
+
+<blockquote>
+  <p>Using CDN</p>
+</blockquote>
+
+<p>Add Following script in body tag.</p>
+
+<p>REMEMBER to add the cdn. <a href="https://github.com/developerso/shadowizard/wiki#installation">See the documentation</a></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;script&gt;
+shadowizard({
+    shadow_type: 'soft',
+    padding: false
+});
+&lt;/script&gt;
+</code></pre></div></div>
+<h1 id="options">Options</h1>
+
+<p><code class="language-plaintext highlighter-rouge">Shadowizard</code> provides you with several options that you can use to customize the box-shadow effect:</p>
+
+<p>• <code class="language-plaintext highlighter-rouge">shadow_type</code> <code class="language-plaintext highlighter-rouge">(string)</code>: This option determines the type of shadow effect you want to use. You can choose from two types: hard and soft. The default is hard.</p>
+
+<p>• <code class="language-plaintext highlighter-rouge">padding</code> <code class="language-plaintext highlighter-rouge">(boolean)</code>: This option determines whether or not to include padding in the shadow effect. If set to true, the shadow will be applied to the padding as well as the content of the HTML element. If set to false, the shadow will only be applied to the content. The default is false.</p>
+
+<p>• <code class="language-plaintext highlighter-rouge">shadow_color</code> <code class="language-plaintext highlighter-rouge">(string)</code>: This option determines the color of the shadow effect. You can use any valid CSS color value. The default is rgba(0,0,0,0.2).</p>
+
+<p>• <code class="language-plaintext highlighter-rouge">shadow_distance</code> <code class="language-plaintext highlighter-rouge">(string)</code>: This option determines the distance between the HTML element and the shadow. You can use any valid CSS length value. The default is 10px.</p>
+
+<p>▪︎ <code class="language-plaintext highlighter-rouge">shadow_blur</code> <code class="language-plaintext highlighter-rouge">(string)</code>: This option determines the blur radius of the shadow. You can use any valid CSS length value. The default is 10px.</p>
+
+<h1 id="example">Example</h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// Example 1 - Using the default options
+shadowizard();
+
+// Example 2 - Applying a soft shadow effect
+shadowizard({
+    shadow_type: 'soft'
+});
+
+// Example 3 - Applying a blue shadow effect
+shadowizard({
+    shadow_color: 'blue'
+});
+
+// Example 4 - Applying a shadow effect with padding
+shadowizard({
+    padding: true
+});
+
+// Example 5 - Applying a shadow effect with a distance of 20px and a blur radius of 15px
+shadowizard({
+    shadow_distance: '20px',
+    shadow_blur: '15px'
+});
+</code></pre></div></div>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>Shadowizard is a simple and customizable package that makes it easy to add beautiful box-shadow effects to your HTML elements. With its easy-to-use API and customizable options, you can quickly and easily create stunning visual effects that enhance the design of your website or application.</p>
+
+<h1 id="tags">Tags</h1>
+
+<p><img src="https://img.shields.io/github/downloads/developerso/shadowizard/total?color=green" alt="" />
+<img src="https://img.shields.io/npm/v/@developerso/shadowizard" alt="" />
+<img src="https://img.shields.io/jsdelivr/gh/hm/developerso/shadowizard" alt="" />
+<img src="https://img.shields.io/github/license/developerso/shadowizard" alt="" />
+<img src="https://img.shields.io/npm/l/@developerso/shadowizard?label=NPM%20license" alt="" />
+<img src="https://img.shields.io/badge/Github%20Latest%20version-2.5.3-green" alt="" /></p>
+
+      </section>
+    </div>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <!-- Google tag (gtag.js) -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MPQJT9D7F8"></script>
+
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+  gtag('config', 'G-MPQJT9D7F8');
+
+</script>
+  </body>
+</html>
